@@ -1,0 +1,402 @@
+{
+    "settings": {
+        "colorDiff": 50,
+        "checkColorForSeparationInference": false,
+        "correct_input": false,
+        "overlapped_width_percent": 50,
+        "default_text_box_width": "100",
+        "autocorrect": [
+            [
+                "．．．",
+                "…",
+                false,
+                true,
+                false
+            ],
+            [
+                "...",
+                "…",
+                true,
+                false,
+                false
+            ],
+            [
+                "......",
+                "……",
+                true,
+                false,
+                false
+            ]
+        ],
+        "precisionMode": 0,
+        "output_format": 0,
+        "make_border_for_area_ocr": false,
+        "sourceLang": "ja",
+        "maximumYOffset": "20",
+        "doNotCheckSeparationWithText": true,
+        "readSubFolder": true,
+        "char_center_align": "[\\!\\?！？⁉‼…—~⋮0-9a-zA-Z]",
+        "showTTSButton": true,
+        "auto_invert_for_panel_detection": true,
+        "balloonModel": "japanese-lines",
+        "inferSeparation": true,
+        "char_freeheight": "",
+        "minimumHSpan": "10",
+        "resize_before_balloon_height": 1024,
+        "useBatchSettings": false,
+        "OCR_border_size": 50,
+        "reorder_for_area_ocr": false,
+        "resize_before_OCR_width": 2500,
+        "enable_bridge_language": false,
+        "detect_rotation_for_ocr": false,
+        "blurIterationTimes": 1,
+        "blur": false,
+        "checkColorForMerging": true,
+        "fontStyles": [
+            {
+                "padding": 0,
+                "kerning": 5,
+                "capital": false,
+                "b4jfont": "System",
+                "line-height": 1.25,
+                "bold": false,
+                "vertical-center": true,
+                "fontname": "MicrosoftYaHei",
+                "italic": false,
+                "shadowRadius": 2,
+                "bgcolor": "255,255,255",
+                "size": 12,
+                "name": "general",
+                "fontcolor": "0,0,0",
+                "alignment": 0,
+                "wrap": true,
+                "shadowColor": "255,255,255,1",
+                "direction": 1
+            },
+            {
+                "padding": 0,
+                "kerning": 5,
+                "capital": false,
+                "b4jfont": "System",
+                "line-height": 1.25,
+                "bold": false,
+                "vertical-center": true,
+                "fontname": "MicrosoftYaHei",
+                "italic": false,
+                "shadowRadius": 2,
+                "bgcolor": "255,255,255",
+                "size": 12,
+                "name": "general-h",
+                "fontcolor": "0,0,0",
+                "alignment": 0,
+                "wrap": true,
+                "shadowColor": "255,255,255,1",
+                "direction": 0
+            }
+        ],
+        "right2left": true,
+        "bridge_language": "en",
+        "detectTextDirectionOnlyByRatio": true,
+        "invertBasedOnColor": false,
+        "firstchar_to_moveup": "",
+        "imgQuality": 90,
+        "rotationDetectionOCRSetting": "",
+        "enableCaseConversionOfSourceForMT": false,
+        "filterRules": "[\n  {\n    \"text\":\"\",\n    \"even_number\": true\n  },\n  {\n    \"text\":\"\",\n    \"even_number\": false\n  }\n]",
+        "do_not_break_words": true,
+        "textLocalizationProcess": [
+            "去除外部区域",
+            "横向合并",
+            "纵向合并",
+            "过滤过小项",
+            "去除内部区域",
+            "拓展区域"
+        ],
+        "remove_with_mask_for_OCR": false,
+        "minimumHeight": "3",
+        "caseConversion": 2,
+        "furiganaStipperMethod": 0,
+        "char_right_align": "[\\.,。，、]",
+        "maximumHeight": "100",
+        "sortBasedOnPanel": true,
+        "char_zerowordspace": "[—]",
+        "convert_vertical_to_horizontal_layout": false,
+        "char_replace": "{\n  \"（\":\"︵\",\n  \"）\":\"︶\",\n  \"『\":\"﹃\",\n  \"』\":\"﹄\"\n}",
+        "minimumVSpan": "10",
+        "pixelsToExpandForInpaintingByBox": 5,
+        "remove_image_outside_areas_for_appending_text_with_ocr": true,
+        "otsu_enabled": true,
+        "resize_before_balloon": true,
+        "overlapping_percent": 50,
+        "defaultInpainter": 0,
+        "threshold": "200",
+        "use_puretext": false,
+        "balloon_fixed_ratio": "1x1",
+        "maskRadius": 0,
+        "checkParagraphPositionForMerging": false,
+        "use_balloon_detection_model_params_first": true,
+        "maxFontSize": 100,
+        "position_restraint": false,
+        "richtext": false,
+        "checkPunctuationForMerging": false,
+        "getClassIDAsTextStyle": false,
+        "char_rotate": "[…—~]",
+        "byTextArea": true,
+        "invert": false,
+        "resize_before_OCR": true,
+        "output_with_bitmapcreator": false,
+        "balloon_divide_ratio": 4,
+        "generateMaskDuringSceneTextDetection": true,
+        "flipOutputImage": false,
+        "sortCriteriaForText": 0,
+        "expand": "6",
+        "output_folder": "out",
+        "maximumXOffset": "5000",
+        "rotationDetectionMethod": 0,
+        "expand_for_balloon": true,
+        "use_fixed_ratio_for_balloon": false,
+        "defaultMaskGen": 0,
+        "inpaintRadius": 3,
+        "offsetThresholdBetweenParagraphLines": 20,
+        "installedFont": [],
+        "confidence_threshold": 0.5,
+        "timeout": "60",
+        "use_recognition_only_ocr_only_for_long_text_area": true,
+        "autoFontSize": true,
+        "endingPunctuations": "[\\.,!?。！？…\"]",
+        "batchSettings": {
+            "ocrInterval": 200,
+            "engine": "tencent",
+            "enable_panel_detection": true,
+            "mergeOperation": "2",
+            "detectionMethod": "0",
+            "interval": 1000,
+            "type": "MT"
+        },
+        "expanding_pix": 5,
+        "autoThreshold": true,
+        "targetLang": "zh",
+        "overlapped_height_percent": 70,
+        "minFontSize": 15,
+        "auto_params": true,
+        "maskGenOCRSetting": "",
+        "cjk_vertical_text_engine": true,
+        "default_text_box_height": "50",
+        "dilation": 5,
+        "autocorrect_enabled": true,
+        "OCR_divide_ratio": 4,
+        "resize": true,
+        "sortCriteria": 0
+    },
+    "images": {
+        "Ranma1_012.jpg": {
+            "boxes": [
+                {
+                    "suitableSize": 43,
+                    "wrappedText": "打破它！\n！",
+                    "verticalBaseLineShift": 3,
+                    "horizontalBaseLineShift": 1.2000000000000028,
+                    "geometry": {
+                        "X": 1083,
+                        "width": 105,
+                        "Y": 143,
+                        "height": 218
+                    },
+                    "text": "破っ!!",
+                    "target": "破!!  "
+                },
+                {
+                    "fontstyle": "general",
+                    "suitableSize": 31,
+                    "wrappedText": "啊，",
+                    "verticalBaseLineShift": 2,
+                    "horizontalBaseLineShift": 3.5999999999999996,
+                    "geometry": {
+                        "X": 715,
+                        "width": 47,
+                        "Y": 191,
+                        "height": 92
+                    },
+                    "text": "あー、",
+                    "target": "啊，  "
+                },
+                {
+                    "fontstyle": "general",
+                    "suitableSize": 29,
+                    "wrappedText": "我感觉\n很好。",
+                    "verticalBaseLineShift": -2,
+                    "horizontalBaseLineShift": 9,
+                    "geometry": {
+                        "X": 534,
+                        "width": 100,
+                        "Y": 161,
+                        "height": 92
+                    },
+                    "text": "調子いい。",
+                    "target": "状态不错。  "
+                },
+                {
+                    "fontstyle": "general",
+                    "suitableSize": 47,
+                    "wrappedText": "又是茜。",
+                    "verticalBaseLineShift": -3,
+                    "horizontalBaseLineShift": 10.200000000000001,
+                    "geometry": {
+                        "X": 342,
+                        "width": 85,
+                        "Y": 165,
+                        "height": 191
+                    },
+                    "text": "まーたあかねはー。",
+                    "target": "又是あかね啊——。  "
+                },
+                {
+                    "fontstyle": "general",
+                    "suitableSize": 37,
+                    "wrappedText": "这就是你永远\n不会真正受欢\n迎的原因。",
+                    "verticalBaseLineShift": -2,
+                    "horizontalBaseLineShift": 7.5,
+                    "geometry": {
+                        "X": 37,
+                        "width": 160,
+                        "Y": 215,
+                        "height": 241
+                    },
+                    "text": "んなことばっかやってるからまともにモテないのよ。",
+                    "target": "因为只会干那种事，根本不受人喜欢。  "
+                },
+                {
+                    "fontstyle": "general",
+                    "suitableSize": 35,
+                    "wrappedText": "那不关你\n的事。",
+                    "verticalBaseLineShift": -1,
+                    "horizontalBaseLineShift": 4.199999999999999,
+                    "geometry": {
+                        "X": 1015,
+                        "width": 97,
+                        "Y": 1123,
+                        "height": 157
+                    },
+                    "text": "よけーなお世話よ。",
+                    "target": "真是多管闲事啊。  "
+                },
+                {
+                    "fontstyle": "general",
+                    "suitableSize": 46,
+                    "wrappedText": "与我姐姐不\n同，我不喜\n欢男生。",
+                    "verticalBaseLineShift": -2,
+                    "horizontalBaseLineShift": 4.800000000000004,
+                    "geometry": {
+                        "X": 304,
+                        "width": 182,
+                        "Y": 1077,
+                        "height": 242
+                    },
+                    "text": "あたしはおねーちゃんと違って男なんか、",
+                    "target": "我和姐姐不同，男人这种东西，  "
+                },
+                {
+                    "fontstyle": "general",
+                    "suitableSize": 48,
+                    "wrappedText": "我恨它\n。",
+                    "verticalBaseLineShift": 3,
+                    "horizontalBaseLineShift": 2.6999999999999957,
+                    "geometry": {
+                        "X": 163,
+                        "width": 121,
+                        "Y": 1165,
+                        "height": 187
+                    },
+                    "text": "大っ嫌いなの。",
+                    "target": "非常讨厌。  "
+                },
+                {
+                    "fontstyle": "general",
+                    "suitableSize": 33,
+                    "wrappedText": "唔，",
+                    "verticalBaseLineShift": 6,
+                    "horizontalBaseLineShift": 4.199999999999999,
+                    "geometry": {
+                        "X": 1112,
+                        "width": 51,
+                        "Y": 1517,
+                        "height": 124
+                    },
+                    "text": "ふーん、",
+                    "target": "哼，  "
+                },
+                {
+                    "fontstyle": "general",
+                    "suitableSize": 45,
+                    "wrappedText": "所以这个\n故事与你\n无关。",
+                    "verticalBaseLineShift": -2,
+                    "horizontalBaseLineShift": 6,
+                    "geometry": {
+                        "X": 887,
+                        "width": 186,
+                        "Y": 1502,
+                        "height": 190
+                    },
+                    "text": "じゃーこの話あんたにゃ関係ないか。",
+                    "target": "那么这件事跟你没关系吧。"
+                }
+            ],
+            "panels": [
+                {
+                    "X": 573,
+                    "width": 385,
+                    "Y": 1107,
+                    "height": 366
+                },
+                {
+                    "X": 34,
+                    "width": 1214,
+                    "Y": 0,
+                    "height": 1385
+                },
+                {
+                    "X": 37,
+                    "width": 1150,
+                    "Y": 1493,
+                    "height": 391
+                }
+            ]
+        },
+        "\\dango_manga\\tmp\\Ranma1_012_mask.png": {
+            "boxes": []
+        },
+        "\\dango_manga\\Ranma1_012.png": {
+            "boxes": []
+        },
+        "\\dango_manga\\tmp\\Ranma1_012_thumb.png": {
+            "boxes": []
+        },
+        "\\dango_manga\\tmp\\Ranma1_012_ipt.png": {
+            "boxes": []
+        }
+    },
+    "UISettings": {
+        "autosave": true,
+        "chinesePunc": true,
+        "dividerPosition": [
+            0.034572733202870194,
+            0.616764514024788
+        ],
+        "translateAfterOCR": false,
+        "vertical": false,
+        "percent": 30,
+        "autoClean": true,
+        "removeSpaces": false,
+        "precisionMode": true,
+        "OCRAfterSelection": false,
+        "autoCapital": false,
+        "pannable": true,
+        "opacity": 100
+    },
+    "terms": {},
+    "dirPath": "C:\\Users\\HP\\Documents\\ImageTrans\\imagetrans_projects\\乱马",
+    "previousOCR": {
+        "engineName": "manga-ocr",
+        "lang": "0"
+    }
+}
